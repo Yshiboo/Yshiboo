@@ -526,8 +526,19 @@ git commit -m "feat: compose cultivation profile README"
 
 ```python
 def test_cli_writes_all_assets_to_temp_directory():
-    # invoke main([...]) against the fixture and fixed London timestamp
-    # assert sky.svg, garden.svg, activity-summary.svg all exist
+    from tempfile import TemporaryDirectory
+
+    with TemporaryDirectory() as tmp:
+        exit_code = main([
+            "--contributions-html", str(FIXTURE),
+            "--now", "2026-09-02T12:00:00+01:00",
+            "--output-dir", tmp,
+        ])
+        assert exit_code == 0
+        output = Path(tmp)
+        assert (output / "sky.svg").exists()
+        assert (output / "garden.svg").exists()
+        assert (output / "activity-summary.svg").exists()
 ```
 
 Implement this test with `tempfile.TemporaryDirectory` and direct `main([...])` invocation, not a subprocess.
