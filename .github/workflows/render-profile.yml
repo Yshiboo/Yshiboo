@@ -40,7 +40,7 @@ jobs:
 
       - name: Commit changed assets
         run: |
-          if git diff --quiet -- assets; then
+          if [ -z "$(git status --porcelain -- assets)" ]; then
             echo "No generated changes."
             exit 0
           fi
