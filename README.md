@@ -1,16 +1,44 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/sky.svg" width="100%" alt="A living sky that changes from sun to moon with London time" />
+</p>
 
-<!--
-**Yshiboo/Yshiboo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<table>
+<tr>
+<td width="24%" valign="top">
 
-Here are some ideas to get you started:
+### 🌿 Projects I'm Building
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**ihhr**  
+Intelligent HR system — current product line.
+
+**ai-literacy**  
+AI-literacy and Next Token Lab research work.
+
+**mlpractical**  
+Machine-learning practical work.
+
+</td>
+<td width="52%" valign="top">
+
+### 🌱 Activity
+
+<img src="./assets/garden.svg" width="100%" alt="GitHub contribution activity shown as seeds, sprouts, plants and millet" />
+
+</td>
+<td width="24%" valign="top">
+
+### 🌿 Tech Stack
+
+`Python` · `TypeScript` · `React`  
+`FastAPI` · `PostgreSQL`  
+`Docker` · `Git`
+
+### 〽️ Contribution activity
+
+<img src="./assets/activity-summary.svg" width="100%" alt="Privacy-safe GitHub contribution summary" />
+
+</td>
+</tr>
+</table>
+
+<p align="center"><sub>春种一粒粟，秋收万颗子。</sub></p>
